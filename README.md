@@ -2,9 +2,9 @@
 # libsvm2csv
 libsvm to csv weka make nominal classes
 
-The way to use si:
+The way to use is:
 
-$python libsvm2csv.py <fileName.withExtention.libsvm>
+$python libsvm2csv.py fileName.withExtention.libsvm
 
 the ouptut will be a csv file, with all features numbers as cols and a las col called "Class".
 Each row will contains the value of each feature and the class value (from 1 to n) in libsvm will have a upper case alphabet letter.
